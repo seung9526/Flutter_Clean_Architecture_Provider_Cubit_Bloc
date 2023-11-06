@@ -1,5 +1,7 @@
 import 'package:education_app/core/res/colours.dart';
 import 'package:education_app/core/res/fonts.dart';
+import 'package:education_app/core/services/router.dart';
+import 'package:education_app/src/on_boarding/presentation/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -22,6 +24,7 @@ class MyApp extends StatelessWidget{
         ),
         colorScheme: ColorScheme.fromSwatch(accentColor: Colours.primaryColour),
       ),
+      onGenerateRoute: generateRoute,
     );
   }
 }
