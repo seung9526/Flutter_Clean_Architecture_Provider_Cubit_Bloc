@@ -1,7 +1,7 @@
 class MediaRes {
   const MediaRes._();
 
-  static const _baseIcons = 'assets/icons';
+  static const _baseIcon = 'assets/icons';
   static const _baseImage = 'assets/images';
   static const _baseLottie = 'assets/lottie';
   static const _baseVector = 'assets/vectors';
@@ -18,7 +18,19 @@ class MediaRes {
 
   static const thumbnailPlaceholder = '$_baseImage/video_placeholder.png';
 
-
+  // icon
+  static const user = '$_baseIcon/user.png';
+  static const youtube = '$_baseIcon/youtube.png';
+  static const course = '$_baseIcon/course.png';
+  static const subscriptionMonthly = '$_baseIcon/subscription_month.png';
+  static const subscriptionYearly = '$_baseIcon/subscription_year.png';
+  static const test = '$_baseIcon/test.png';
+  static const video = '$_baseIcon/video.png';
+  static const material = '$_baseIcon/document.png';
+  static const json = '$_baseIcon/json.png';
+  static const examTime = '$_baseIcon/exam_time.png';
+  static const examQuestions = '$_baseIcon/question_document.png';
+  static const examTimeRed = '$_baseIcon/exam_time_red.png';
 
 
 
