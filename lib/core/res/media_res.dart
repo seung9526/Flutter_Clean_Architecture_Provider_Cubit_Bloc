@@ -31,6 +31,13 @@ class MediaRes {
   static const examTime = '$_baseIcon/exam_time.png';
   static const examQuestions = '$_baseIcon/question_document.png';
   static const examTimeRed = '$_baseIcon/exam_time_red.png';
+  static const courseInfoExam = '$_baseIcon/course_info_exam.png';
+  static const courseInfoMaterial = '$_baseIcon/course_info_material.png';
+  static const courseInfoVideo = '$_baseIcon/course_info_video.png';
+
+  // Lottie
+  static const emptyLeaderboard = '$_baseLottie/empty_leaderboard.json';
+  static const noNotifications = '$_baseLottie/no_notifications.json';
 
 
 
